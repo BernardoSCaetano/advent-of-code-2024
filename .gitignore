@@ -1,0 +1,49 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.venv/
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Java specific
+target/
+*.class
+
+# Maven specific
+.mvn/
+*.log
+*.bak
+*.swp
+*.tmp
+*.lock
+!pom.xml # Ensure Maven's pom.xml is included
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Documentation
+stories/
+docs/stories/*.bak
+
+# Ignore any secrets (if applicable)
+*.env
+.env.local
+
+# Ignore other unnecessary artifacts
+*.swp
